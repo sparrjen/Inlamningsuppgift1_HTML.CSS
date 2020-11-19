@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap');
 
 *{
     box-sizing: border-box;
@@ -12,6 +12,8 @@ html, body {
     padding: 0;
     line-height: 1.5;     
 }
+
+
 
 /* topmenu */
 .border {
@@ -54,7 +56,6 @@ html, body {
     justify-content: space-between;
 }
 
-/* topmenu */
 .topmenu {
     display: none;   
     padding: 1rem;
@@ -63,10 +64,6 @@ html, body {
 .topmenu .border {
     opacity: 60%;
     border-bottom: 1px solid #707070;
-}
-
-.topmenu .container {
-    padding: 0;
 }
 
 @media (min-width: 768px) {
@@ -114,16 +111,54 @@ html, body {
     color: #25E6C8;
 }
 
+
+
 /* mainmenu */
+#mainmenu {
+    font-family: 'Roboto Slab', serif
+}
 
+#mainmenu .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+#mainmenu .container .logo {
+    height: 50px;    
+}
+@media (min-width: 768px) {#mainmenu .container .logo {height: 60px;}}
 
+#mainmenu .container .menu {
+    flex: 2;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#mainmenu .container .menu ul {
+  list-style: none;
+  display: none;
+  margin: 0;
+}
+@media (min-width: 992px) { #mainmenu .container .menu ul { display: flex}}
+
+#mainmenu .container .menu ul li {
+   margin-left: 1.3rem;
+}
 
 #mainmenu .container .menu ul li a {
-    color: #2BAAEC;
+    color: #363636;
     text-decoration: none;
 }
 
+#mainmenu .container .menu .btn1 {
+    font-size: 1.8rem;    
+  }
+  @media (min-width: 992px) { #mainmenu .container .menu .btn1 { display: none}}
+
+
+  
+    
 
 
 
