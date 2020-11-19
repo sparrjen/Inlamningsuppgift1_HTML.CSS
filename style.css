@@ -13,6 +13,7 @@ html, body {
     line-height: 1.5;     
 }
 
+/* topmenu */
 .border {
     border: 1px solid #cccccc;
 }
@@ -53,61 +54,76 @@ html, body {
     justify-content: space-between;
 }
 
-/* navbar-top */
-.navbar-top {
+/* topmenu */
+.topmenu {
     display: none;   
     padding: 1rem;
 }
 
-.navbar-top .border {
+.topmenu .border {
     opacity: 60%;
     border-bottom: 1px solid #707070;
 }
 
-.navbar-top .container {
+.topmenu .container {
     padding: 0;
 }
 
 @media (min-width: 768px) {
-   .navbar-top{
+   .topmenu{
        display: block;
    }
 }
 
-.working-hours {
+/*Opening hours */
+
+.opening-hours {
     display: flex;
     align-items: center;
 }
 
-.working-hours i {
+.opening-hours i {
     margin-right: 0.5rem;
     font-size: 1.3rem;
     color: #2BAAEC;
 }
 
-.working-hours p {
+.opening-hours p {
     margin: 0;
     font-size: 1,05rem;
 }
 
-.navbar-top ul {
+/*Social media */
+
+.topmenu ul {
     display: flex;
     list-style: none;
     margin: 0;
     }
 
-.navbar-top ul li {
+.topmenu ul li {
     margin-left: 1.3rem;
 }
 
-.navbar-top a {
+.topmenu a {
     color: #2BAAEC;
     font-size: 1.1rem;
 }
 
-.navbar-top a:hover {
+.topmenu a:hover {
     color: #25E6C8;
 }
+
+/* mainmenu */
+
+
+
+
+#mainmenu .container .menu ul li a {
+    color: #2BAAEC;
+    text-decoration: none;
+}
+
 
 
 
