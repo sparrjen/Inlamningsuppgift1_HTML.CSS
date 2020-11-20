@@ -211,6 +211,53 @@ html, body {
     font-style: normal; 
 }
 
+.btn2:hover {
+    background-color: #2baaec;
+}
+
+
+
+/* appointment*/
+
+.appointment
+{
+    background-color:#2BAAEC;
+    opacity: 80%;
+}
+
+.appointment .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.appointment p {
+    color: #FFFFFF;
+    font-family: Roboto Slab; 
+    font-size: 2rem;   
+    font-weight: 400;
+}
+
+
+
+/* footer*/
+.footer
+{
+    background-color:#2BAAEC;   
+    text-align: center; 
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+    
+    
+}
+
+.footer p {
+    color: #F3FBFF;
+    opacity: 60%;
+    font-family: Roboto;
+}
+
+
     
 
 
