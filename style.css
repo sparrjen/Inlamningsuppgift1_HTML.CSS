@@ -72,7 +72,7 @@ html, body {
    }
 }
 
-/*Opening hours */
+/* topmeny/Opening hours */
 
 .opening-hours {
     display: flex;
@@ -90,7 +90,7 @@ html, body {
     font-size: 1,05rem;
 }
 
-/*Social media */
+/*top menu/Social media */
 
 .topmenu ul {
     display: flex;
@@ -167,10 +167,50 @@ html, body {
   }
   @media (min-width: 992px) { #mainmenu .container .menu .btn1 { display: none}}
 
-  /*Showcase/*
 
+.showcase  {
+    background-color: #DEDEDE;
+} 
 
-  
+.showcase .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1.5rem;
+}
+
+.showcase .container .placehold {
+    height: 680px;     
+}
+
+.showcase .summary {
+   margin-left: 155px;
+   font-family: Roboto Slab;   
+}
+
+.showcase .summary h1 {
+    font-size: 3.5rem;
+    font-weight: 400;   
+}
+
+.showcase .summary p {
+    font-size: 1rem;
+}
+
+.btn2 {
+    background-color: #25E6C8;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 0.6rem;
+    padding: 1.2rem 3.5rem;
+    font-family: Roboto;
+    font-size: 18px;
+    margin-top: 1rem;   
+    font-weight: bold;
+    font-family: Roboto; 
+    font-style: normal; 
+}
+
     
 
 
