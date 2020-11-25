@@ -176,24 +176,35 @@ html, body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 1.5rem;
+   
 }
 
-.showcase .container .placehold {
-    height: 680px;     
+.showcase .container .placehold {     
+    display: none;   
+}
+@media (min-width: 992px) {
+    .showcase .container .placehold {
+        display: block;
+        height: 500px;
+        margin-right: 2rem; 
+    }
 }
 
-.showcase .summary {
-   margin-left: 155px;
-   font-family: Roboto Slab;   
+@media (min-width: 1200px) {
+        .showcase .container .placehold {
+            height: 680px;
+            margin-right: 4rem; 
+        }
 }
 
 .showcase .summary h1 {
+    font-family: Roboto Slab;  
     font-size: 3.5rem;
     font-weight: 400;   
 }
 
 .showcase .summary p {
+    font-family: Roboto Slab;  
     font-size: 1rem;
 }
 
@@ -204,18 +215,15 @@ html, body {
     border-radius: 0.6rem;
     padding: 1.2rem 3.5rem;
     font-family: Roboto;
-    font-size: 18px;
-    margin-top: 1rem;   
-    font-weight: bold;
-    font-family: Roboto; 
-    font-style: normal; 
+    font-size: 1.05rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;   
+    font-weight: bold;    
 }
 
 .btn2:hover {
     background-color: #2baaec;
 }
-
-
 
 /* appointment*/
 
@@ -226,16 +234,33 @@ html, body {
 }
 
 .appointment .container {
+    text-align: center;
+    padding-bottom: 1rem;
+    
+}
+@media (min-width: 768px) { .appointment .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
+} }
 
 .appointment p {
     color: #FFFFFF;
     font-family: Roboto Slab; 
     font-size: 2rem;   
     font-weight: 400;
+}
+.btn3 {
+    background-color:#FFFFFF;
+    color:#2BAAEC;
+    border: none;
+    border-radius: 0.6rem;
+    padding: 1.1rem 3.5rem;
+    font-family: Roboto;
+    font-size: 1.05rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;   
+    font-weight: bold;    
 }
 
 
