@@ -194,32 +194,39 @@ html, body {
 @media (min-width: 992px) {
     .showcase .container .placehold {
         display: block;
-        height: 500px;
+        height: 531px;
         margin-right: 2rem; 
+        padding-top: 0.8rem;
     }
 }
 
 @media (min-width: 1200px) {
         .showcase .container .placehold {
             height: 680px;
-            margin-right: 4rem; 
+            margin-right: 6rem; 
         }
 }
 
 .showcase .summary h1 {
     font-family: Roboto Slab;  
-    font-size: 2rem;
+    font-size: 1.7rem;
     font-weight: 400;   
 }
 @media (min-width: 992px) {
+    .showcase .summary h1 {
+        font-size: 2.5rem; 
+    }
+}
+@media (min-width: 1200px) {
     .showcase .summary h1 {
         font-size: 3.5rem; 
     }
 }
 
 .showcase .summary p {
-    font-family: Roboto Slab;  
-    font-size: 1rem;
+    font-family: Roboto;  
+    font-size: 1.1rem;
+    font-weight: normal;
 }
 
 .btn2 {
@@ -252,25 +259,32 @@ html, body {
     justify-content: space-between;
     align-items: center;   
 }
-
 .aboutus #presentation {
-    padding-right: 6rem;    
+    padding-right: 0rem;
+    padding-left: 1rem;    
  }
 
-.text h1 {
-    font-family: Roboto Slab;
-    font-size: 2.9rem;
-    font-weight: normal;
+ .text h1 {
+    font-family: Roboto Slab;  
+    font-size: 1.2rem;
+    font-weight: 400;   
+    }
+@media (min-width: 992px) {
+    .text h1 {
+        font-size: 2.2rem;
+        border-bottom: 3px solid #25E6C8;
+        padding-bottom:0.4rem; 
+    }
 }
 
 .text .text1 {
     font-family: Roboto;
     font-size: 1.1rem;
-    font-weight: normal;  
+    font-weight: normal;     
 }
 
 .text .text2 {
-    font-family: Roboto;
+   font-family: Roboto;
     font-size: 1.1rem;
     font-weight: normal;  
 }
@@ -278,29 +292,65 @@ html, body {
 .bluetext {
     color: #2BAAEC;
 }
+
  
 .aboutus .container .statistics { 
     display: flex;   
-    justify-content: space-between;
+    
 }
 
-.aboutus.container .placehold2 {     
+#patients h1 {
+    color: #2BAAEC;
+    font-family: Roboto Slab; 
+    font-size: 1.5rem;   
+    padding-right: 3.5rem;
+}
+
+#treatments h1 {
+    color: #2BAAEC;
+    font-family: Roboto Slab;
+    font-size: 1.5rem; 
+    padding-right: 2rem;
+}
+
+#open h1 {
+    color: #2BAAEC;
+    font-family: Roboto Slab;
+    font-size: 1.5rem;
+    padding-right: 2rem; 
+}
+
+#patients p  {    
+    font-family: Roboto Slab; 
+    font-size: 1rem;
+    padding-right: 3.5rem;
+}
+
+#treatments p {
+    font-family: Roboto Slab;
+    font-size: 1rem; 
+    padding-right: 2rem;
+}
+
+#open p {
+    font-family: Roboto Slab;  
+    font-size: 1rem;    
+    padding-right: 2rem;  
+}
+
+
+.aboutus .container .placehold2 {     
     display: none;   
 }
-@media (min-width: 992px) {
-    .aboutus .container .placehold2 {
-        display: block;
-        height: 500px;       
-        padding-top: 3rem; 
-        margin-left: 10rem;
-        padding-right: 2rem;
-    }
-}
+
 
 @media (min-width: 1200px) {
         .aboutus .container .placehold2 {
-            height: 680px;            
-	        padding-top: 3rem;	 
+            display: block;
+            height: 724px;            
+            padding-top: 5rem;
+            padding-left:10rem;	 
+            padding-right: 5rem;           
         }
 }
 
