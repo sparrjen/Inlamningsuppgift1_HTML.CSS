@@ -357,10 +357,79 @@ html, body {
 /* appointment*/
 
 #services {
-    background-color:grey;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    /* OBS! Ändra till !!!!!!!!!!!!!!!!!!!!!!!! background-color: #f7f7f7; */
+    background-color:#f7f7f7;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;    
 }
+
+#services .container {
+    display: grid;    
+    justify-content: center;
+    text-align: center;
+    gap: 1rem;
+    grid-template-columns: 1fr;
+    grid-template-areas:    "ti"
+                            "b1" 
+                            "b2" 
+                            "b4" 
+                            "b3"
+                            "b5" 
+                            "b6";
+}
+@media (min-width: 992px) {
+    #services .container {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas: "ti ti ti" 
+                             "b1 b2 b3"
+                             "b4 b5 b6";
+         
+    }
+}
+
+#servicetitle {
+    grid-area: ti;
+}
+
+#servicebox1 {
+    grid-area: b1;
+}
+#servicebox2 {
+    grid-area: b2;
+}
+#servicebox3 {
+    grid-area: b3;
+}
+#servicebox4 {
+    grid-area: b4;
+}
+#servicebox5 {
+    grid-area: b5;
+}
+#servicebox6 {
+    grid-area: b6;
+}
+
+.servicebox {
+background-color: #FFFFFF;
+padding: 2rem;
+}
+
+.toothimg {
+    display: flex; 
+    justify-content: center;
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+    background-color:#25e6c8;
+    margin: auto;    
+}
+.toothimg:hover {
+    background-color: #2baaec;
+}
+
+
+
 
 
 
@@ -375,20 +444,29 @@ html, body {
 .appointment .container {
     text-align: center;
     padding-bottom: 1rem;
+    padding-top: 1.5rem;
     
 }
 @media (min-width: 768px) { .appointment .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-} }
+} 
+}
 
 .appointment p {
     color: #FFFFFF;
     font-family: Roboto Slab; 
-    font-size: 2rem;   
-    font-weight: 400;
+    font-size: 1.5rem;   
+    font-weight: 400;   
 }
+
+
+@media (min-width: 768px) { .appointment p {
+    font-size: 2rem;
+} 
+}
+
 .btn3 {
     background-color:#FFFFFF;
     color:#2BAAEC;
