@@ -115,12 +115,18 @@ html, body {
 
 /* mainmenu */
 
+
+
 #mainmenu {
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Roboto Slab', sans-serif;
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
-@media (min-width: 768px) { #mainmenu{ padding-top: 2rem; padding-bottom: 2rem;}}
+@media (min-width: 768px) { 
+    #mainmenu{ 
+        padding-top: 2rem; padding-bottom: 2rem;
+    }
+}
 
 #mainmenu .container {
     display: flex;
@@ -131,7 +137,11 @@ html, body {
 #mainmenu .container .logo {
     height: 50px;    
 }
-@media (min-width: 768px) {#mainmenu .container .logo {height: 60px;}}
+@media (min-width: 768px) {
+    #mainmenu .container .logo {
+        height: 60px;
+    }
+}
 
 #mainmenu .container .menu {
     flex: 2;
@@ -144,7 +154,11 @@ html, body {
   display: none;
   margin: 0;
 }
-@media (min-width: 992px) { #mainmenu .container .menu ul { display: flex}}
+@media (min-width: 992px) { 
+    #mainmenu .container .menu ul { 
+        display: flex; 
+    }
+}
 
 #mainmenu .container .menu ul li {
    margin-left: 1.3rem;
@@ -166,7 +180,11 @@ html, body {
     background-color: transparent;
 
   }
-  @media (min-width: 992px) { #mainmenu .container .menu .btn1 { display: none}}
+  @media (min-width: 992px) { 
+      #mainmenu .container .menu .btn1 {
+           display: none;
+        }
+    }
 
 
 
@@ -208,8 +226,8 @@ html, body {
 }
 
 .showcase .summary h1 {
-    font-family: Roboto Slab;  
-    font-size: 1.7rem;
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 1.6rem;
     font-weight: 400;   
 }
 @media (min-width: 992px) {
@@ -224,7 +242,7 @@ html, body {
 }
 
 .showcase .summary p {
-    font-family: Roboto;  
+    font-family: 'Roboto', sans-serif; 
     font-size: 1.1rem;
     font-weight: normal;
 }
@@ -235,7 +253,7 @@ html, body {
     border: none;
     border-radius: 0.6rem;
     padding: 1.2rem 3.5rem;
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-size: 1.05rem;
     margin-top: 1rem;
     margin-bottom: 1rem;   
@@ -265,8 +283,8 @@ html, body {
  }
 
  .text h1 {
-    font-family: Roboto Slab;  
-    font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif;  
+    font-size: 1.4rem;
     font-weight: 400;   
     }
 @media (min-width: 992px) {
@@ -278,13 +296,13 @@ html, body {
 }
 
 .text .text1 {
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-size: 1.1rem;
     font-weight: normal;     
 }
 
 .text .text2 {
-   font-family: Roboto;
+   font-family: 'Roboto', sans-serif;
     font-size: 1.1rem;
     font-weight: normal;  
 }
@@ -301,39 +319,39 @@ html, body {
 
 #patients h1 {
     color: #2BAAEC;
-    font-family: Roboto Slab; 
+    font-family: 'Roboto', sans-serif; 
     font-size: 1.5rem;   
     padding-right: 3.5rem;
 }
 
 #treatments h1 {
     color: #2BAAEC;
-    font-family: Roboto Slab;
+    font-family: 'Roboto', sans-serif;
     font-size: 1.5rem; 
     padding-right: 2rem;
 }
 
 #open h1 {
     color: #2BAAEC;
-    font-family: Roboto Slab;
+    font-family: 'Roboto', sans-serif;
     font-size: 1.5rem;
     padding-right: 2rem; 
 }
 
 #patients p  {    
-    font-family: Roboto Slab; 
+    font-family: 'Roboto Slab', sans-serif; 
     font-size: 1rem;
     padding-right: 3.5rem;
 }
 
 #treatments p {
-    font-family: Roboto Slab;
+    font-family: 'Roboto Slab', sans-serif;
     font-size: 1rem; 
     padding-right: 2rem;
 }
 
 #open p {
-    font-family: Roboto Slab;  
+    font-family: 'Roboto Slab', sans-serif; 
     font-size: 1rem;    
     padding-right: 2rem;  
 }
@@ -362,9 +380,16 @@ html, body {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;    
 }
-
-@media (min-width: 768px) { #services { padding-top: 2rem; padding-bottom: 3rem; } }
-@media (min-width: 1200px) { #services { padding-top: 4rem; padding-bottom: 5rem; } }
+@media (min-width: 768px) { 
+    #services { 
+        padding-top: 2rem; padding-bottom: 3rem; 
+    } 
+}
+@media (min-width: 1200px) { 
+    #services { 
+        padding-top: 4rem; padding-bottom: 5rem; 
+    } 
+}
 
 #services .container {
     display: grid;
@@ -398,9 +423,9 @@ html, body {
 
 
 #services .container .title h1 {
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Roboto Slab', sans-serif;
     font-weight: normal;
-    font-size: 12px;
+    font-size: 1.4rem;
     color: #363636;
     border-bottom: 1px solid #25E6C8;
     padding-bottom: 0.4rem;
@@ -447,6 +472,13 @@ html, body {
 #services .container .servicebox {
 background-color: #FFFFFF;
 padding: 3rem;
+border-radius: 0.5rem;
+transition: all 0.25s ease-in-out;
+}
+
+
+#services .container .servicebox:hover {
+    box-shadow: 3px 3px 5px #e2e0e0;
 }
 
 #services .container .servicebox p {
@@ -479,8 +511,7 @@ padding: 3rem;
 
 /* appointment*/
 
-.appointment
-{
+.appointment {
     background-color:#2BAAEC;
     opacity: 80%;
 }
@@ -488,27 +519,27 @@ padding: 3rem;
 .appointment .container {
     text-align: center;
     padding-bottom: 1rem;
-    padding-top: 1.5rem;
-    
+    padding-top: 1.5rem;    
 }
 @media (min-width: 768px) { .appointment .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-} 
+    } 
 }
 
 .appointment p {
     color: #FFFFFF;
-    font-family: Roboto Slab; 
+    font-family: 'Roboto Slab', sans-serif; 
     font-size: 1.5rem;   
     font-weight: 400;   
 }
 
 
-@media (min-width: 768px) { .appointment p {
+@media (min-width: 768px) { 
+    .appointment p {
     font-size: 2rem;
-} 
+    } 
 }
 
 .btn3 {
@@ -517,7 +548,7 @@ padding: 3rem;
     border: none;
     border-radius: 0.6rem;
     padding: 1.1rem 3.5rem;
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-size: 1.05rem;
     margin-top: 1rem;
     margin-bottom: 1rem;   
@@ -540,7 +571,7 @@ padding: 3rem;
 .footer p {
     color: #F3FBFF;
     opacity: 60%;
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
 }
 
 
