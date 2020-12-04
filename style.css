@@ -65,14 +65,11 @@ html, body {
     opacity: 60%;
     border-bottom: 1px solid #707070;
 }
-
 @media (min-width: 768px) {
    .topmenu{
        display: block;
    }
 }
-
-/* topmeny/Working hours */
 
 .working-hours {
     display: flex;
@@ -89,8 +86,6 @@ html, body {
     margin: 0;
     font-size: 1,05rem;
 }
-
-/*top menu/Social media */
 
 .topmenu ul {
     display: flex;
@@ -114,8 +109,6 @@ html, body {
 
 
 /* mainmenu */
-
-
 
 #mainmenu {
     font-family: 'Roboto Slab', sans-serif;
@@ -179,16 +172,16 @@ html, body {
     border: 1px solid transparent;
     background-color: transparent;
 
-  }
-  @media (min-width: 992px) { 
-      #mainmenu .container .menu .btn1 {
-           display: none;
-        }
+}
+@media (min-width: 992px) { 
+    #mainmenu .container .menu .btn1 {
+        display: none;
     }
+}
 
 
 
-  /* showcase */
+/* showcase */
 
 .showcase  {
     background-color: #DEDEDE;
@@ -217,7 +210,6 @@ html, body {
         padding-top: 0.8rem;
     }
 }
-
 @media (min-width: 1200px) {
         .showcase .container .placehold {
             height: 680px;
@@ -280,7 +272,7 @@ html, body {
 .aboutus #presentation {
     padding-right: 0rem;
     padding-left: 1rem;    
- }
+}
 
  .text h1 {
     font-family: 'Roboto', sans-serif;  
@@ -360,8 +352,6 @@ html, body {
 .aboutus .container .placehold2 {     
     display: none;   
 }
-
-
 @media (min-width: 1200px) {
         .aboutus .container .placehold2 {
             display: block;
@@ -372,10 +362,11 @@ html, body {
         }
 }
 
-/* appointment*/
+
+
+/* services*/
 
 #services {
-    /* OBS! Ändra till !!!!!!!!!!!!!!!!!!!!!!!! background-color: #f7f7f7; */
     background-color:#f7f7f7;
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;    
@@ -406,21 +397,24 @@ html, body {
                             "b6";
      
 }
-@media (min-width: 768px) { #services .container {
+@media (min-width: 768px) { 
+    #services .container {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas:    "e1 ti e2"
                             "b1 b2 b3"
                             "b4 b5 b6";
                             gap: 1rem; 
-} }
-@media (min-width: 1200px) { #services .container { 
+    }
+}
+@media (min-width: 1200px) { 
+    #services .container { 
     grid-template-columns: 1fr 1fr 1fr; 
     grid-template-areas:    "e1 ti e2"
                             "b1 b2 b3"
                             "b4 b5 b6";
                             gap: 1.5rem; 
-} }
-
+    } 
+}
 
 #services .container .title h1 {
     font-family: 'Roboto Slab', sans-serif;
@@ -476,7 +470,6 @@ border-radius: 0.5rem;
 transition: all 0.25s ease-in-out;
 }
 
-
 #services .container .servicebox:hover {
     box-shadow: 3px 3px 5px #e2e0e0;
 }
@@ -503,6 +496,7 @@ transition: all 0.25s ease-in-out;
     background-color:#25e6c8;
     margin: auto;    
 }
+
 .toothimg:hover {
     background-color: #2baaec;
 }
@@ -521,7 +515,8 @@ transition: all 0.25s ease-in-out;
     padding-bottom: 1rem;
     padding-top: 1.5rem;    
 }
-@media (min-width: 768px) { .appointment .container {
+@media (min-width: 768px) { 
+    .appointment .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -534,8 +529,6 @@ transition: all 0.25s ease-in-out;
     font-size: 1.5rem;   
     font-weight: 400;   
 }
-
-
 @media (min-width: 768px) { 
     .appointment p {
     font-size: 2rem;
@@ -563,9 +556,7 @@ transition: all 0.25s ease-in-out;
     background-color:#2BAAEC;   
     text-align: center; 
     padding-bottom: 0.5rem;
-    padding-top: 0.5rem;
-    
-    
+    padding-top: 0.5rem; 
 }
 
 .footer p {
